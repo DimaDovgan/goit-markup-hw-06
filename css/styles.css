@@ -621,12 +621,14 @@ line-height: 1.87;
 letter-spacing: 0.06em;
 color: #FFFFFF;
 }
-.modal-path:hover .box-imput{
+.modal-path:hover .box-imput,
+.box-imput:focus{
   
   border-color: var(--bkncolor-herobtn-focushoverr);
   box-shadow: none;
 }
-.modal-path:hover .box-imput-svg{
+.modal-path:hover .box-imput-svg,
+.box-imput:focus+.box-imput-svg{
   fill: var(--bkncolor-herobtn-focushoverr);
 
 }
