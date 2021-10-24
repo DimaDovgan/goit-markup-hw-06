@@ -14,7 +14,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
         integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" href="./css/styles.css">
+    <link rel="stylesheet" href="./css/main.min.css">
 </head>
 
 <body class="pt-main">
@@ -24,22 +24,22 @@
             <nav class="header-navigator">
                 <a href="" class="logo link ">
                     <p>Web</p>
-                    <span class="header-logo logo">Studio</span>
+                    <span class="black-logo logo">Studio</span>
                 </a>
-                <ul class="header-nav list ">
-                    <li class="header-item"> <a href="./index.html" class="header-link link focus-hover">Студия</a></li>
-                    <li class="header-item"><a href="./Portfolio.html"
-                            class="header-link link focus-hover active-page">Портфолио</a></li>
-                    <li class="header-item"> <a href="" class="header-link link focus-hover">Контакты</a></li>
+                <ul class="header-navigator__list list ">
+                    <li class="header-navigator__item"> <a href="./index.html" class="header-navigator__link link focus-hover">Студия</a></li>
+                    <li class="header-navigator__item"><a href="./Portfolio.html"
+                            class="header-navigator__link link focus-hover active-page">Портфолио</a></li>
+                    <li class="header-navigator__item"> <a href="" class="header-navigator__link link focus-hover">Контакты</a></li>
                 </ul>
 
                 <ul class="header-contacts list ">
-                    <li class="header-contacts-item mail-item"><svg class="icone-mail">
+                    <li class="header-contacts__item mail-item"><svg class="icone-mail">
                             <use href="./images/sprite.svg#icon-gmail"></use>
-                        </svg><a href="mailto:info@devstudio.com" class="header-contact  link focus-hover">info@devstudio.com</a></li>
-                    <li class="header-contacts-item phone-item"><svg class="icone-phone ">
+                        </svg><a href="mailto:info@devstudio.com" class="header-contacts__link   link focus-hover">info@devstudio.com</a></li>
+                    <li class="header-contacts__item phone-item"><svg class="icone-phone ">
                             <use href="./images/sprite.svg#icon-phone"></use>
-                        </svg><a href="tel:+380961111111" class="header-contact  link focus-hover phone">+38
+                        </svg><a href="tel:+380961111111" class="header-contacts__link   link focus-hover phone">+38
                             096 111 11 11 </a></li>
                 </ul>
 
@@ -53,16 +53,16 @@
             <div class="container pt ">
                 <h2 class="filter-title">filter</h2>
                 <ul class="filter-list list">
-                    <li class="filter-item"><button type="button"
+                    <li class="filter-list__item"><button type="button"
                             class="filter-btn btn-focus-hover ">Все</button></li>
-                    <li class="filter-item"><button type="button" class="filter-btn btn-focus-hover">Веб-сайты</button>
+                    <li class="filter-list__item"><button type="button" class="filter-btn btn-focus-hover">Веб-сайты</button>
                     </li>
-                    <li class="filter-item"><button type="button" class="filter-btn btn-focus-hover">Приложения
+                    <li class="filter-list__item"><button type="button" class="filter-btn btn-focus-hover">Приложения
                         </button>
                     </li>
-                    <li class="filter-item"><button type="button" class="filter-btn btn-focus-hover">Дизайн</button>
+                    <li class="filter-list__item"><button type="button" class="filter-btn btn-focus-hover">Дизайн</button>
                     </li>
-                    <li class="filter-item"><button type="button" class="filter-btn btn-focus-hover">Маркетинг</button>
+                    <li class="filter-list__item"><button type="button" class="filter-btn btn-focus-hover">Маркетинг</button>
                     </li>
                 </ul>
             </div>
@@ -70,10 +70,10 @@
             
             <div class="container project-container ">
                 <section class="projects">
-                    <h2 class="project-title">projects</h2>
+                    <h2 class="project__title">projects</h2>
                     <ul class="project-list list">
                         
-                        <li class="project-item "><a href=""class="link link-focus">
+                        <li class="project-list__item "><a href=""class="link link-focus">
                             <div class="project-box">
                                 <div class="project-img">
                             <img src="./images/portfolio-0.png" alt="projects1" width="370" height="294"
@@ -87,7 +87,7 @@
                             </a>
                         </li>
                        
-                        <li class="project-item "><a href="" class="link link-focus">
+                        <li class="project-list__item "><a href="" class="link link-focus">
                             <div class="project-box">
                                 <div class="project-img">
                             <img src="./images/portfolio-1.png" alt="projects2" width="370" height="294"
@@ -100,7 +100,7 @@
                                 <p class="project-text">Дизайн</p>
                             </div></a>
                         </li>
-                        <li class="project-item "><a href="" class="link link-focus">
+                        <li class="project-list__item"><a href="" class="link link-focus">
                             <div class="project-box">
                                 <div class="project-img">
                             <img src="./images/portfolio-2.png" alt="projects3" width="370" height="294"
@@ -114,7 +114,7 @@
                                 <p class="project-text">Приложение</p>
                             </div></a>
                         </li>
-                        <li class="project-item"><a href="" class="link link-focus">
+                        <li class="project-list__item"><a href="" class="link link-focus">
                             <div class="project-box">
                             <div class="project-img">
                             <img src="./images/portfolio-3.png" alt="projects4" width="370" height="294"
@@ -128,7 +128,7 @@
                                 <p class="project-text">Маркетинг</p>
                             </div></a>
                         </li>
-                        <li class="project-item"><a href="" class="link link-focus">
+                        <li class="project-list__item"><a href="" class="link link-focus">
                             <div class="project-box">
                                 <div class="project-img">
                             <img src="./images/portfolio-4.png" alt="projects5" width="370" height="294"
@@ -142,7 +142,7 @@
                                 <p class="project-text">Приложение</p>
                             </div></a>
                         </li>
-                        <li class="project-item"><a href="" class="link link-focus">
+                        <li class="project-list__item"><a href="" class="link link-focus">
                             <div class="project-box">
                                 <div class="project-img">
                             <img src="./images/portfolio-5.png" alt="projects6" width="370" height="294"
@@ -156,7 +156,7 @@
                                 <p class="project-text">Веб-сайт</p>
                             </div></a>
                         </li>
-                        <li class="project-item"><a href="" class="link link-focus">
+                        <li class="project-list__item"><a href="" class="link link-focus">
                             <div class="project-box">
                                 <div class="project-img">
                             <img src="./images/portfolio-6.png" alt="projects7" width="370" height="294"
@@ -170,7 +170,7 @@
                                 <p class="project-text">Дизайн</p>
                             </div></a>
                         </li>
-                        <li class="project-item"><a href="" class="link link-focus">
+                        <li class="project-list__item"><a href="" class="link link-focus">
                             <div class="project-box">
                                 <div class="project-img">
                             <img src="./images/portfolio-7.png" alt="projects8" width="370" height="294"
@@ -184,7 +184,7 @@
                                 <p class="project-text">Маркетинг</p>
                             </div></a>
                         </li>
-                        <li class="project-item"><a href="" class="link link-focus">
+                        <li class="project-list__item"><a href="" class="link link-focus">
                             <div class="project-box">
                                 <div class="project-img">
                             <img src="./images/portfolio-8.png" alt="projects9" width="370" height="294"
@@ -207,13 +207,13 @@
             
                 <ul class="address-list list">
                     <li><a href="" class="logo link pading-foter-logo ">
-                            <p>Web</p><span class="footer-logo logo">Studio</span>
+                            <p>Web</p><span class="white-logo logo">Studio</span>
                         </a></li>
-                    <li class="map"><a href="" class="address-map link focus-hover">г. Киев, пр-т Леси Украинки, 26</a>
+                    <li class="address-list__map"><a href="" class="address-map link focus-hover">г. Киев, пр-т Леси Украинки, 26</a>
                     </li>
-                    <li class="conta"><a href="mailto:info@example.com"
+                    <li class="address-list__conta"><a href="mailto:info@example.com"
                             class="address-contact link focus-hover">info@example.com</a></li>
-                    <li class="conta last"><a href="tel:+380991111111" class="address-contact link focus-hover">+38 099
+                    <li class="address-list__conta last"><a href="tel:+380991111111" class="address-contact link focus-hover">+38 099
                             111
                             11 11</a></li>
                 </ul>
@@ -221,22 +221,22 @@
         </address>
         <section class="social-networks">
         <h2 class="social-networks-name">присоединяйтесь</h2>
-        <ul class="team-person-list list footer-social-networks">
-            <li class="social-item"><a href="" class="social-link-footer link"><svg class="social-img-footer" width="20" height="20">
+        <ul class="social-person-list list footer-social-networks">
+            <li class="social-person-list__item"><a href="" class="social-person-list__footer link"><svg class="social-person-list__img-footer" width="20" height="20">
                         <use href="./images/sprite.svg#icon-instagram"></use>
                     </svg></a></li>
-            <li class="social-item"><a href="" class="social-link-footer link"><svg class="social-img-footer" width="20" height="20">
+            <li class="social-person-list__item"><a href="" class="social-person-list__footer link"><svg class="social-person-list__img-footer" width="20" height="20">
                         <use href="./images/sprite.svg#icon-twitter"></use>
                     </svg></a></li>
-            <li class="social-item"><a href="" class="social-link-footer link"><svg class="social-img-footer" width="20" height="20">
+            <li class="social-person-list__item"><a href="" class="social-person-list__footer link"><svg class="social-person-list__img-footer" width="20" height="20">
                         <use href="./images/sprite.svg#icon-facebook"></use>
                     </svg></a></li>
-            <li class="social-item"><a href="" class="social-link-footer link"><svg class="social-img-footer" width="20" height="20">
+            <li class="social-person-list__item"><a href="" class="social-person-list__footer link"><svg class="social-person-list__img-footer" width="20" height="20">
                         <use href="./images/sprite.svg#icon-linkedin"></use>
                     </svg></a></li>
         </ul>
         </section>
-        <section class=" social-networks mail-section">
+        <section class="mail-section">
             <p class="social-networks-name">Подпишитесь на рассылку</p>
             <form class="footer-tlegram-form">
                 <input type="email" class="input-email-footer" placeholder="E-mail">
